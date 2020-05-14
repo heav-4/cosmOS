@@ -26,8 +26,7 @@ local s,e=pcall(function()
   end
 
   if not fs.exists(".cosmOS_fvi.lon") then
-    fwrite_json(".cosmOS_fvi.lon",{})
-    a=fvg
+    fwrite_lon(".cosmOS_fvi.lon",{})
   end
 end)
 if not s then
