@@ -32,3 +32,5 @@ end)
 if not s then
   print("oh no, a bad thing happened: \n"..e)
 end
+
+--hi. im updating this via terminal instead of githubs bad page
